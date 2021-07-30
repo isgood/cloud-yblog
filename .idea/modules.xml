@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-yblog-article/cloud-yblog-article.iml" filepath="$PROJECT_DIR$/cloud-yblog-article/cloud-yblog-article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-yblog-monitor/cloud-yblog-monitor8901/cloud-yblog-monitor8901.iml" filepath="$PROJECT_DIR$/cloud-yblog-monitor/cloud-yblog-monitor8901/cloud-yblog-monitor8901.iml" />
+    </modules>
+  </component>
+</project>

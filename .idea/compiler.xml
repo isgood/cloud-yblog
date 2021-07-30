@@ -6,9 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-yblog-doc" />
+        <module name="cloud-yblog-system5301" />
         <module name="cloud-yblog-commons" />
+        <module name="cloud-yblog-gateway3201" />
+        <module name="cloud-yblog-article" />
+        <module name="cloud-yblog-doc" />
+        <module name="cloud-yblog-web81" />
+        <module name="cloud-yblog-monitor" />
+        <module name="cloud-yblog-user" />
+        <module name="cloud-yblog-log6201" />
+        <module name="cloud-yblog-admin91" />
+        <module name="cloud-yblog-search5566" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-yblog-article" target="10" />
+    </bytecodeTargetLevel>
   </component>
 </project>
