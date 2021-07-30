@@ -2,7 +2,7 @@
 
 <p align=center>
   <a href="#">
-    <img src="https://gitee.com/youzhengjie/springBootBlog/raw/master/image/bloglogo.jpg" alt="yblog" style="width:200px;height:200px">
+    <img src="https://gitee.com/youzhengjie/cloud-yblog/raw/master/cloud-yblog-doc/images/bloglogo.jpg" alt="cloud-yblog" style="width:200px;height:200px">
   </a>
 </p>
 <p align=center>
@@ -18,8 +18,11 @@ Gitee: https://gitee.com/youzhengjie/springBootBlog
 
 ### cloud-yblog的架构图
 
-
-
+<p align=center>
+  <a href="#">
+    <img src="https://gitee.com/youzhengjie/cloud-yblog/raw/master/cloud-yblog-doc/images/jiagou.png" alt="cloud-yblog-jiagou" style="width:200px;height:200px">
+  </a>
+</p>
 
 ### 目标
 > **虽说博客系统已不是新鲜玩意，但是我觉得把一个普通的项目做的更完善、功能更多的话你就不普通，我也会秉承着这个理念一直把项目完善下去**<br/>
