@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>cloud-yblog-doc</module>
+        <module>cloud-yblog-commons</module>
     </modules>
 
     <properties>
