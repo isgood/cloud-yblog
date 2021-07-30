@@ -15,11 +15,11 @@
         <module>cloud-yblog-admin</module>
         <module>cloud-yblog-user</module>
         <module>cloud-yblog-gateway</module>
-        <module>cloud-yblog-gateway3201</module>
         <module>cloud-yblog-system</module>
         <module>cloud-yblog-log</module>
         <module>cloud-yblog-search</module>
         <module>cloud-yblog-monitor</module>
+        <module>cloud-yblog-article</module>
     </modules>
 
     <properties>

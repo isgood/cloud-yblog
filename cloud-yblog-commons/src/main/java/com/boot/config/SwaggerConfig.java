@@ -11,7 +11,7 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
 @Configuration
-public class swaggerConfig { // 配置swagger2
+public class SwaggerConfig { // 配置swagger2
 
   /**
    * Springfox提供Docket对象，为其设置相关属性，将其注册成为spring的bean后， 可以在接口文档中展示（可配置多个Docket的bean，对应不同分组的接口）

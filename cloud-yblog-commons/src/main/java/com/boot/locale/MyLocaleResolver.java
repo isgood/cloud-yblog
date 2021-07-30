@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Locale;
 
 @Configuration
-public class myLocaleResolver implements org.springframework.web.servlet.LocaleResolver {
+public class MyLocaleResolver implements org.springframework.web.servlet.LocaleResolver {
     /**
      * 国际化
      * @param httpServletRequest

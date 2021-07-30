@@ -3,11 +3,15 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/cloud-yblog-admin/cloud-yblog-admin91/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-yblog-admin/cloud-yblog-admin91/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-yblog-article/cloud-yblog-article2801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-yblog-article/cloud-yblog-article2801/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-yblog-commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-yblog-gateway/cloud-yblog-gateway3201/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-yblog-gateway/cloud-yblog-gateway3201/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-yblog-log/cloud-yblog-log6201/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-yblog-log/cloud-yblog-log6201/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-yblog-monitor/cloud-yblog-monitor8901/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-yblog-monitor/cloud-yblog-monitor8901/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-yblog-search/cloud-yblog-search5566/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-yblog-search/cloud-yblog-search5566/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-yblog-system/cloud-yblog-system5301/src/main/java" charset="UTF-8" />
