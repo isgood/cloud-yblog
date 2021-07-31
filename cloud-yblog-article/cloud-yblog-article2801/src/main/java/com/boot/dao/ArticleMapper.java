@@ -20,10 +20,6 @@ public interface ArticleMapper {
     //排行榜
     public List<Article> selectAllArticleOrderByDesc();
 
-    public List<Article> selectArticleAndComment();
-
-    public List<Article> selectArticleOrderCreateDate();
-
     public int selectArticleCount();
 
     public List<Article> selectAllArticleByCreated();

@@ -28,13 +28,12 @@ public class Article implements Serializable {
 
     private Statistic statistic;
 
-    private List<Comment> comments;
 
 
     public Article() {
     }
 
-    public Article(Integer id, String title, String content, Date created, Date modified, String categories, String tags, Boolean allowComment, int recommend, String thumbnail, int likes, Statistic statistic, List<Comment> comments) {
+    public Article(Integer id, String title, String content, Date created, Date modified, String categories, String tags, Boolean allowComment, int recommend, String thumbnail, int likes, Statistic statistic) {
         this.id = id;
         this.title = title;
         this.content = content;
@@ -47,7 +46,6 @@ public class Article implements Serializable {
         this.thumbnail = thumbnail;
         this.likes = likes;
         this.statistic = statistic;
-        this.comments = comments;
     }
 
 
@@ -139,14 +137,6 @@ public class Article implements Serializable {
         this.thumbnail = thumbnail;
     }
 
-    public void setComments(List<Comment> comments) {
-        this.comments = comments;
-    }
-
-    public List<Comment> getComments() {
-        return comments;
-    }
-
     public int getLikes() {
         return likes;
     }
@@ -170,7 +160,6 @@ public class Article implements Serializable {
                 ", thumbnail='" + thumbnail + '\'' +
                 ", likes=" + likes +
                 ", statistic=" + statistic +
-                ", comments=" + comments +
                 '}';
     }
 }

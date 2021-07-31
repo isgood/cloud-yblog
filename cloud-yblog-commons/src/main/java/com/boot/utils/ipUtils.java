@@ -1,7 +1,7 @@
 package com.boot.utils;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
@@ -10,7 +10,7 @@ import java.net.UnknownHostException;
 
 @Component
 public class ipUtils {
-    private static final Logger logger = Logger.getLogger(ipUtils.class);
+//    private static final Logger logger = Logger.getLogger(ipUtils.class);
     private static final String IP_UTILS_FLAG = ",";
     private static final String UNKNOWN = "unknown";
     private static final String LOCALHOST_IP = "0:0:0:0:0:0:0:1";
@@ -55,13 +55,13 @@ public class ipUtils {
                     try {
                         iNet = InetAddress.getLocalHost();
                     } catch (UnknownHostException e) {
-                        logger.error("getClientIp error: {}", e);
+//                        logger.error("getClientIp error: {}", e);
                     }
                     ip = iNet.getHostAddress();
                 }
             }
         } catch (Exception e) {
-            logger.error("IPUtils ERROR ", e);
+//            logger.error("IPUtils ERROR ", e);
         }
         //使用代理，则获取第一个IP地址
         if (!StringUtils.isEmpty(ip) && ip.indexOf(IP_UTILS_FLAG) > 0) {

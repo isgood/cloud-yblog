@@ -1,20 +1,15 @@
 server:
-  port: 2801
+  port: 6201
 spring:
   application:
-    name: cloud-yblog-article
+    name: cloud-yblog-log
   redis:
     port: 6379
     password:
     host: localhost
     database: 12     #使用db12
-#  security:
-#    # 配置默认的 InMemoryUserDetailsManager 的用户账号与密码。
-#    user:
-#      name: root # 账号
-#      password: 123456 # 密码
   datasource:
-    url: jdbc:mysql://localhost:3306/cloud_yblog_article?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/cloud_yblog_log?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8
     username: root
     password: 18420163207
     driver-class-name: com.mysql.jdbc.Driver

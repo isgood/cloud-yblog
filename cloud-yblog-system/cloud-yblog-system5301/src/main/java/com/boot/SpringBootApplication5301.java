@@ -1,5 +1,6 @@
 package com.boot;
 
+
 import com.boot.config.ScanClassProperties;
 import com.boot.config.SwaggerConfig;
 import org.springframework.boot.SpringApplication;
@@ -13,9 +14,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Import(SwaggerConfig.class) //导入swaggerConfig的配置类
 @EnableSwagger2  //开启Swagger2
 @EnableConfigurationProperties(ScanClassProperties.class)
-public class SpringBootApplication2801 {
+public class SpringBootApplication5301 {
 
   public static void main(String[] args) {
-      SpringApplication.run(SpringBootApplication2801.class,args);
+      SpringApplication.run(SpringBootApplication5301.class,args);
   }
 }

@@ -239,16 +239,6 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
-    public List<Article> selectArticleAndComment() {
-        return articleMapper.selectArticleAndComment();
-    }
-
-    @Override
-    public List<Article> selectArticleOrderCreateDate() {
-        return articleMapper.selectArticleOrderCreateDate();
-    }
-
-    @Override
     public int selectArticleCount() {
         return articleMapper.selectArticleCount();
     }
